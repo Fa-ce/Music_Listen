@@ -1,14 +1,12 @@
-### 项目介绍
+# 项目介绍
 
 项目参考于网易云音乐 PC 版 app，基本实现官方音乐播放、MV 播放所有功能
 
-### 后端 API
+## 效果展示
 
-本项目后端所有数据来自开源项目 NeteaseCloudMusicApi，下面附有后端开源项目地址、文档
+![](assets/2022-04-15-00-19-49-image.png)
 
-[后端 API 仓库地址](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
-[API 文档](https://neteasecloudmusicapi.vercel.app/#/)
 
 ### 运行项目
 
@@ -28,11 +26,23 @@
    
    2.3. npm run serve
 
-## 效果展示
+3. 
 
-### 首屏(热门推荐)
+4. 后端 API
+   
+   本项目后端所有数据来自开源项目 NeteaseCloudMusicApi，下面附有后端开源项目地址、文档
+   
+   [后端 API 仓库地址](https://github.com/Binaryify/NeteaseCloudMusicApi)
+   
+   [API 文档](https://neteasecloudmusicapi.vercel.app/#/)
 
-![](assets/2022-04-15-00-19-49-image.png)
+
+
+### 排行榜
+
+![](assets/2022-04-15-00-24-49-image.png)
+
+
 
 ### 搜索
 
