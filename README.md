@@ -13,17 +13,33 @@
 ### 运行项目
 
 1. 运行后端仓库
-
+   
    1.1. git clone 后端仓库地址
-
+   
    1.2. cnpm installf
-
+   
    1.3. node app
 
 2. 运行本仓库代码
-
+   
    2.1. git clone 本仓库地址
-
+   
    2.2. cnpm install
-
+   
    2.3. npm run serve
+
+## 效果展示
+
+### 首屏(热门推荐)
+
+![](assets/2022-04-15-00-19-49-image.png)
+
+### 搜索
+
+![](assets/2022-04-15-00-20-37-image.png)
+
+   
+
+### 播放详情
+
+![](assets/2022-04-15-00-21-53-image.png)
