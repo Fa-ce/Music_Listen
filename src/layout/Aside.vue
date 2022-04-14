@@ -45,89 +45,39 @@ export default {
     data() {
         return {
             menuList: [
-                // {
-                //     link: "/individuation",
-                //     // icon: "iconfont icon-music",
-                //     // icon: "el-icon-s-operation",
-                //     icon: "el-icon-share",
-                //     content: "热门推荐",
-                // },
-                // {
-                //     link: "/new-songs",
-                //     // icon: "iconfont icon-musicnoteeighth",
-                //     icon: "el-icon-s-promotion",
-                //     content: "最新音乐",
-                // },
-                // {
-                //     link: "/ranklist",
-                //     // icon: "iconfont icon-PCbofangye_paihangbang",
-                //     icon: "el-icon-s-data",
-                //     content: "榜单排行",
-                // },
-                // {
-                //     link: "/artist-list",
-                //     // icon: "iconfont icon-mansingle",
-                //     icon: "el-icon-s-custom",
-                //     content: "歌手查找",
-                // },
-                // {
-                //     link: "/allmusiclist",
-                //     // icon: "iconfont icon-gedan",
-                //     icon: "el-icon-s-order",
-                //     content: "歌单分类",
-                // },
-                // {
-                //     link: "/mv",
-                //     // icon: "iconfont icon-shipin",
-                //     icon: "el-icon-video-camera",
-                //     content: "观看MV",
-                // },
-                // {
-                //     link: "/mv-list",
-                //     icon: "iconfont icon-MV",
-                //     content: "全部MV",
-                // },
-
                 {
                     link: "/individuation",
-                    // icon: "iconfont icon-music",
-                    // icon: "el-icon-s-operation",
                     icon: "el-icon-share",
                     content: "热门推荐",
                 },
                 {
                     link: "/artist-list",
-                    // icon: "iconfont icon-mansingle",
                     icon: "el-icon-s-custom",
                     content: "歌手查找",
                 },
                 {
                     link: "/new-songs",
-                    // icon: "iconfont icon-musicnoteeighth",
                     icon: "el-icon-s-promotion",
                     content: "最新音乐",
                 },
                 {
                     link: "/mv",
-                    // icon: "iconfont icon-shipin",
                     icon: "el-icon-magic-stick",
                     content: "观看MV",
                 },
                 {
                     link: "/ranklist",
-                    // icon: "iconfont icon-PCbofangye_paihangbang",
                     icon: "el-icon-s-data",
                     content: "榜单排行",
                 },
                 {
                     link: "/allmusiclist",
-                    // icon: "iconfont icon-gedan",
+
                     icon: "el-icon-s-order",
                     content: "歌单分类",
                 },
                 {
                     link: "/mv-list",
-                    // icon: "iconfont icon-MV",
                     icon: "el-icon-video-camera",
                     content: "全部MV",
                 },
@@ -203,13 +153,6 @@ export default {
     &-light {
         background: var(--light-aside-bg-color);
     }
-    // &-dark {
-    //     background: var(--dark-aside-bg-color);
-    //     color: var(--dark-text-color);
-    // }
-    // &-green {
-    //     background: var(--green-aside-bg-color);
-    // }
 }
 .menu {
     height: 50%;

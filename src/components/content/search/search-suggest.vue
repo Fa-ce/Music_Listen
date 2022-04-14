@@ -43,7 +43,6 @@
                         {{ item.name }}——{{ item.artist.name }}
                     </dd>
                     <dt v-if="playlists && playlists.length">
-                        <!-- <i class="iconfont icon-gedan" />歌单 -->
                         <i class="el-icon-s-flag" />歌单
                     </dt>
                     <dd
@@ -156,16 +155,12 @@ export default {
             if (this.keywords != "") {
                 debounce(this.suggest(), 1000)();
             }
-            // else {
-            //     // alert("请输入要搜索的歌曲");
-            // }
         },
     },
 };
 </script>
 <style lang="less" scoped>
 .search-suggest-scroll {
-    // max-height: 530px;
     max-height: 480px;
 }
 .dance-music-search-suggest {
@@ -189,12 +184,6 @@ export default {
         &-light dd:hover {
             color: var(--light-text-tint);
         }
-        // &-green dd:hover {
-        //     color: var(--green-text-tint);
-        // }
-        // &-dark dd:hover {
-        //     color: var(--dark-text-tint);
-        // }
         dl {
             dt {
                 padding: 5px 0px;

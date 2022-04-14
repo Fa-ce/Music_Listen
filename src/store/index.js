@@ -9,8 +9,8 @@ export default new Vuex.Store({
     user: null,
     uid: null,
     cookie: null,
-    isloading:false,
-    requestErr:false,
+    isloading: false,
+    requestErr: false,
   },
   mutations: {
     setTheme(state, theme) {
@@ -24,15 +24,15 @@ export default new Vuex.Store({
       state.cookie = obj.cookie;
     },
     /**显示隐藏loading */
-    showLoading(state){
-      state.isloading=true;
+    showLoading(state) {
+      state.isloading = true;
     },
-    hiddenLoading(state){
-      state.isloading=false;
+    hiddenLoading(state) {
+      state.isloading = false;
     },
     /**修改网络状态 */
-    setRequestErr(state){
-      state.requestErr=true;
+    setRequestErr(state) {
+      state.requestErr = true;
     }
   },
   getters: {
@@ -42,29 +42,29 @@ export default new Vuex.Store({
       }
       return state.theme;
     },
-    getAvatar(state){
-      let avatar='';
-      if(localStorage.getItem('avatar')){
-        avatar=localStorage.getItem('avatar');
+    getAvatar(state) {
+      let avatar = '';
+      if (localStorage.getItem('avatar')) {
+        avatar = localStorage.getItem('avatar');
         return avatar;
       }
-      avatar=state.user&&state.user.profile.avatarUrl;
+      avatar = state.user && state.user.profile.avatarUrl;
       return avatar;
     },
-    getCookie(state){
-      if(localStorage.getItem('cookie')){
-        state.cookie=localStorage.getItem('cookie');
+    getCookie(state) {
+      if (localStorage.getItem('cookie')) {
+        state.cookie = localStorage.getItem('cookie');
       }
       return state.cookie;
     },
     /**获取网络请求状态 */
-    getRequestType(state){
+    getRequestType(state) {
       return state.requestErr;
     },
     /**获取用户id */
-    getUserId(state){
-      if(localStorage.getItem('uid')){
-        state.uid=localStorage.getItem('uid');
+    getUserId(state) {
+      if (localStorage.getItem('uid')) {
+        state.uid = localStorage.getItem('uid');
       }
       return state.uid
     },

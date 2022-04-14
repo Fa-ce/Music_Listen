@@ -32,7 +32,6 @@
 </template>
 <script>
 import { formatDate } from "utils/tool";
-import { _pushCommend } from "network/detail";
 import { theme } from "mixin/global/theme";
 import { imgLoadMixin } from "mixin/global/imgLoad";
 import empty from "common/empty/empty";
@@ -69,22 +68,6 @@ export default {
         _formatDate(data) {
             return formatDate(new Date(data), "yyyy年MM月dd日 hh:mm:ss");
         },
-        pushCommend() {
-            let cookie = this.$store.getters.getCookie;
-            if (cookie !== "" && cookie !== null) {
-                _pushCommend(cookie, this.id, this.content).then((res) => {
-                    if (res.data.code == 200) {
-                        this.$Toast.success("评论成功");
-                    } else {
-                        this.$Toast.error("评论失败");
-                    }
-                });
-            }
-            //  else {
-            //     this.$Toast.warning("请先登陆");
-            // }
-            this.content = "";
-        },
         handleImgLoad() {
             if (this.imgCount == this.recommends.length) this.$emit("refresh");
             this.imgCount++;
@@ -101,12 +84,6 @@ export default {
         &-light {
             background: #f0f0f2;
         }
-        // &-dark {
-        //     background: #1c1e22;
-        // }
-        // &-green {
-        //     background: #f0f0f2;
-        // }
         p {
             text-align: right;
         }

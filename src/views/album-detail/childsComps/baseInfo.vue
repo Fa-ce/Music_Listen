@@ -21,11 +21,11 @@
                 </b-button>
                 <b-button round class="button">
                     <i class="iconfont icon-shoucang" />
-                    收藏({{ albumDetail.subCount }})
+                    已收藏:({{ albumDetail.subCount }})
                 </b-button>
                 <b-button round class="button">
                     <i class="iconfont icon-fenxiang" />
-                    分享({{ albumDetail.shareCount }})
+                    已分享:({{ albumDetail.shareCount }})
                 </b-button>
             </div>
             <div class="right-item">

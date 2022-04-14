@@ -49,13 +49,9 @@ export default {
     padding: 8px 0px;
     display: flex;
     cursor: pointer;
-    // &-green :hover,
     &-light:hover {
         background: var(--light-hover-bg-color);
     }
-    // &-dark:hover {
-    //     background: var(--dark-hover-bg-color);
-    // }
     .left {
         width: calc(100vh / 12);
         height: calc(100vh / 12);

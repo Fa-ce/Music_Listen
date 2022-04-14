@@ -19,7 +19,6 @@
             <div class="mv-title-forword">
                 <router-link to="/mv-list" title="查看更多MV">
                     更多
-                    <!-- <i class="vbestui-iconfont icon-qian icon"></i> -->
                     <i class="el-icon-caret-right"></i>
                 </router-link>
             </div>
@@ -45,8 +44,6 @@
             <div class="mv-title-forword">
                 <router-link to="/mv-list" title="查看更多MV">
                     更多
-                    <!-- <i class="vbestui-iconfont icon-qian icon"></i -->
-                    <!-- <i class="el-icon-arrow-right"></i> -->
                     <i class="el-icon-caret-right"></i>
                 </router-link>
             </div>

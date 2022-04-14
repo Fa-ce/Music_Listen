@@ -30,12 +30,5 @@ export default {
     &-light {
         background: var(--light-footer-bg-color);
     }
-    // &-dark {
-    //     background: var(--dark-footer-bg-color);
-    //     color: var(--dark-article-color);
-    // }
-    // &-green {
-    //     background: var(--green-footer-bg-color);
-    // }
 }
 </style>

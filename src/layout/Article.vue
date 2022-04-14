@@ -15,32 +15,19 @@
 <script>
 import { theme } from "mixin/global/theme.js";
 import variableWhite from "@/styles/variables/variable-white";
-// import variableGreen from "@/styles/variables/variable-green";
-// import variableDark from "@/styles/variables/variable-dark";
-/**三种主题 */
 const themes = {
     white: "light",
-    // dark: "dark",
-    // green: "green",
 };
 export default {
     name: "LayoutArticle",
     mixins: [theme],
     created() {
-        /**初始化主题表 */
+        /**设置主体颜色 */
         this.themeMap = {
             [themes.white]: {
                 title: "浅色",
                 file: variableWhite,
             },
-            // [themes.green]: {
-            //     title: "绿色",
-            //     file: variableGreen,
-            // },
-            // [themes.dark]: {
-            //     title: "深色",
-            //     file: variableDark,
-            // },
         };
         // 默认浅色
         this.changeTheme(this.getTheme);
@@ -57,13 +44,6 @@ export default {
         },
         getLoadingColor() {
             let color = "skyblue";
-            // let color = "";
-            // color =
-            //     this.theme == "dark"
-            //         ? "var(--main-color)"
-            //         : this.theme == "green"
-            //         ? "var(--green-main-color)"
-            //         : "";
             return color;
         },
         getRequestType() {

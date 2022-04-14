@@ -5,13 +5,6 @@ export const iconColor = {
          */
         iconActiveColor() {
             let color = "white";
-            // let color = "";
-            // color =
-            //     this.theme == "dark"
-            //         ? "var(--main-color)"
-            //         : this.theme == "green"
-            //             ? "var(--green-main-color)"
-            //             : "";
             return color;
         },
     }

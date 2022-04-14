@@ -14,20 +14,6 @@
             @moveEnd="moveEnd"
             @pullingUp="pullingUp"
         >
-            <!-- <b-scroll
-            ref="scroll"
-            class="b-scroll"
-            :theme="getTheme"   :theme="getTheme"
-            :speed="speed"
-            :disable-bar="disableBar"
-            :height="height"
-            :disable-wheel="disableWheel"
-            :track-color="trackColor"
-            :thumb-color="thumbColor"
-            @moveStart="moveStart"
-            @moveEnd="moveEnd"
-            @pullingUp="pullingUp"
-        > -->
             <slot></slot>
         </b-scroll>
     </div>

@@ -42,9 +42,6 @@ export default {
             if (this.getCookie) {
                 this.initRequest();
             }
-            // else {
-            //     this.$Toast.warning("请先登陆");
-            // }
         }
     },
     watch: {
@@ -52,9 +49,6 @@ export default {
             if (this.getCookie) {
                 this.initRequest();
             }
-            // else {
-            //     this.$Toast.warning("请先登陆");
-            // }
         },
     },
 };

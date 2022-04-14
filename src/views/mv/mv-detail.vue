@@ -175,7 +175,7 @@ export default {
     /* overflow: hidden; */
 }
 /* .scroll {
-  height: calc(100vh - 58px - 60px);
+    height: calc(100vh - 58px - 60px);
 } */
 .layout-left {
     display: inline-block;

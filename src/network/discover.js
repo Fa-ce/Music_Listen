@@ -36,19 +36,6 @@ export function _getDaySongs() {
     })
 }
 
-/**获取每日推荐歌单  需要登陆*/
-// export function _getRecommendResource(cookie, uid) {
-// export function _getRecommendResource(cookie) {
-//     return request({
-//         url: '/recommend/songs',
-//         // params: {
-//         //     cookie: cookie,
-//         //     uid: uid
-//         // }
-//     })
-// }
-
-
 /**获取排行榜数据 */
 export function _getRankList() {
     return request({

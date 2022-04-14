@@ -146,13 +146,9 @@ export default {
     z-index: 2;
     left: 0px;
     bottom: 60px;
-    // &-green,
     &-light {
         background: #fff;
     }
-    // &-dark {
-    //     background: var(--dark-bg-color);
-    // }
     &-container {
         padding: 0px 250px;
     }
@@ -169,13 +165,9 @@ export default {
 .player-pure-top {
     height: 400px;
     display: flex;
-    // &-green,
     &-light {
         background: radial-gradient(closest-side, #928e8d, #fff);
     }
-    // &-dark {
-    //     background: radial-gradient(closest-side, #3c3532, #16181c);
-    // }
 }
 .player-record {
     flex: 1;
@@ -234,13 +226,9 @@ export default {
     top: 60px;
     margin: auto;
     animation: rotate 20s linear infinite;
-    // &-green,
     &-light {
         box-shadow: 0 0 10px #918a85;
     }
-    // &-dark {
-    //     box-shadow: 0 0 10px #f9f9f9;
-    // }
     img {
         width: 100%;
         border-radius: 50%;

@@ -20,8 +20,6 @@
 <script>
 import { theme } from "mixin/global/theme";
 import { _AllMv, MV } from "network/mv";
-
-// import Scroll from "common/scroll/Scroll";
 import Split from "common/split/split";
 import MvList from "content/mv-list/mv-list";
 

@@ -1,7 +1,6 @@
 <template>
     <div class="headClass-class">
         <div :class="program + 'header-title'">
-            <!-- <i class="el-icon-service"></i> -->
             <div class="titleIcon">
                 <img
                     src="../assets/img/icon.gif"
@@ -11,7 +10,6 @@
                 />
             </div>
         </div>
-
         <div :class="program + 'header-main'">
             <div class="left">
                 <b-poptip
@@ -51,6 +49,7 @@
                         :theme="getTheme"
                     >
                         <h2>Music Listen</h2>
+                        <!-- <i>Music Listen</i> -->
                         <div slot="content">悦听 Music Listen</div>
                     </b-tooltip>
                 </div>
@@ -71,7 +70,6 @@
 </template>
 <script>
 import { theme } from "mixin/global/theme.js";
-// import { requestFullScreen, exitFullscreen } from "utils/window.js";
 import HotSearchList from "content/search/hot-search-list";
 import SearchSuggest from "content/search/search-suggest";
 export default {
@@ -84,19 +82,11 @@ export default {
     data() {
         return {
             isShow: false,
-            // isLogin: false,
             keywords: "",
             isSearch: false, //是否在搜索
         };
     },
     computed: {
-        // headClass() {
-        //     return [
-        //         `${this.program + this.theme + "-header"}`,
-        //         "dance-music-header",
-        //         // "Music-Listen",
-        //     ];
-        // },
         getAvatar() {
             return this.$store.getters.getAvatar;
         },
@@ -116,7 +106,6 @@ export default {
         /**处理搜索-->跳转到搜索详情 */
         handleSearchForword() {
             if (this.keywords.trim() === "") {
-                // alert("请输入内容");
                 this.keywords = "";
                 this.$Toast.error("输入内容为空,请输入要查询的歌曲");
             } else {
@@ -181,11 +170,9 @@ export default {
         height: 100%;
         text-align: center;
         display: flex;
+        cursor: pointer;
         .headline {
             margin: 5% 0 0 25%;
-            font-family: "Helvetica Neue", Helvetica, "PingFang SC",
-                "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial,
-                sans-serif;
             color: #50616d;
         }
         &-left {
@@ -273,52 +260,6 @@ export default {
 .dance-music-light-header {
     background: var(--light-bg-color);
 }
-// // dark主题
-// .dance-music-dark-header {
-//     background: var(--dark-header-bg-color);
-// }
-// //green主题
-// .dance-music-green-header {
-//     background: var(--green-bg-color);
-// }
-// // 换肤图标主题
-// .light-huanfu-icon {
-//     color: var(--dark-bg-color) !important;
-// }
-// .dark-huanfu-icon {
-//     color: #ccc !important;
-// }
-// // header 右边图标主题
-// .light-item {
-//     color: var(--light-text-color);
-// }
-// .dark-item {
-//     color: #ccc;
-// }
-// .green-item {
-//     color: #f6f6f6;
-// }
-// // header 左边图标主题
-// .header-dark-title-icon {
-//     color: #ccc;
-// }
-// .header-green-title-icon {
-//     color: #f6f6f6;
-// }
-// .login {
-//     position: fixed;
-//     top: 0px;
-//     bottom: 0px;
-//     left: 0px;
-//     right: 0px;
-//     margin: auto;
-// }
-// .login-enter-active {
-//     animation: fadeInDown var(--animation-base-time);
-// }
-// .login-leave-active {
-//     animation: zoomOutUp var(--animation-base-time);
-// }
 .vbestui-tool-tip {
     margin-right: 20px;
 }

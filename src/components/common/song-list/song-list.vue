@@ -23,7 +23,7 @@
                     :key="index"
                     @click.native="handleDbclick(index)"
                 >
-                    <!-- @dblclick.native="handleDbclick(index)" 双击事件    -->
+                    <!-- 点击播放事件 -->
                     <b-table-td width="50px" v-if="lines[0]">
                         <span
                             v-show="
@@ -54,7 +54,6 @@
                         v-if="lines[1]"
                         class="dance-music-table-tr-td-two"
                     >
-                        <!-- <i class="iconfont icon-icon_play" v-if="!newsongs" /> -->
                         <i class="el-icon-headset" v-if="!newsongs" />
                         <div
                             class="dance-music-table-tr-td-two-card"
@@ -89,7 +88,6 @@ import { playing } from "player/playing";
 export default {
     name: "TableList",
     mixins: [theme, playing, playMusic],
-    // mixins: [playing, playMusic],   theme
     props: {
         musicList: {
             type: Array,
@@ -179,12 +177,6 @@ export default {
     &-light {
         color: var(--primary);
     }
-    // &-dark {
-    //     color: var(--main-color);
-    // }
-    // &-green {
-    //     color: var(--green-main-color);
-    // }
 }
 .dance-music-table-tr-newsongs {
     display: flex;

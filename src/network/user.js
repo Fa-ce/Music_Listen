@@ -9,16 +9,6 @@ export function _phoneVerify(phone) {
     })
 }
 
-// export function _login(phone, password) {
-//     return request({
-//         url: '/login/cellphone',
-//         params: {
-//             phone: phone,
-//             password: password
-//         }
-//     })
-// }
-
 /**获取用户歌单 */
 export function _getSongList(id) {
     return request({

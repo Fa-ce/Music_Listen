@@ -14,6 +14,6 @@
 
 #### mv 所有 MV、MV 播放页面
 
-> mv-category   所有 MV 的分类页面
-> mv-detail     MV 详情、播放页面
-> mv            最新 MV、推荐 MV、MV 排行，可以跳转到 mv-category 页面
+> mv-category 所有 MV 的分类页面
+> mv-detail MV 详情、播放页面
+> mv 最新 MV、推荐 MV、MV 排行，可以跳转到 mv-category 页面

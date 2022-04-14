@@ -26,11 +26,11 @@
                 </b-button>
                 <b-button round class="button">
                     <i class="iconfont icon-shoucang" />
-                    收藏({{ baseInfo.subscribedCount }})
+                    已收藏:({{ baseInfo.subscribedCount }})
                 </b-button>
                 <b-button round class="button">
                     <i class="iconfont icon-fenxiang" />
-                    分享({{ baseInfo.shareCount }})
+                    已分享:({{ baseInfo.shareCount }})
                 </b-button>
             </div>
             <div class="desc">

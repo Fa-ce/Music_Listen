@@ -20,7 +20,6 @@
 import { theme } from "mixin/global/theme";
 import { _getTopSongs } from "network/discover";
 import { _getSongsDetail, songDetail } from "network/detail";
-// import Scroll from "common/scroll/Scroll";
 import Split from "common/split/split";
 import SongList from "common/song-list/song-list";
 export default {

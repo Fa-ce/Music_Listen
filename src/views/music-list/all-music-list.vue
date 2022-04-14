@@ -234,13 +234,6 @@ export default {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    // &-dark {
-    //     background: var(--dark-block-bg-color);
-    //     box-shadow: 0 0 1px var(--border);
-    //     color: #dcdde4;
-    //     cursor: pointer;
-    // }
-    // &-green,
     &-light {
         background: #fff;
         box-shadow: 0 0 1px var(--border-tint);

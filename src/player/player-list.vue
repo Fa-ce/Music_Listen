@@ -62,10 +62,6 @@ export default {
     overflow: hidden;
     position: absolute;
     box-shadow: 0 0 2px var(--border-tt);
-    // &-dark {
-    //     background: var(--dark-bg-color);
-    // }
-    // &-green,
     &-light {
         background: #fff;
     }

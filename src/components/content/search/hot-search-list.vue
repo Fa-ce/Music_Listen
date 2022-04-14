@@ -7,8 +7,6 @@
     >
         <div class="dance-music-search-list" @mouseenter="handleRefresh">
             <div class="search-list-title">
-                <!-- <i class="iconfont icon-shanchu" /> -->
-                <!-- <i class="iconfont el-icon-headset" /> -->
                 <i class="el-icon-mic" />
                 <span>热门搜索</span>
             </div>
