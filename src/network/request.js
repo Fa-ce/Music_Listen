@@ -1,10 +1,8 @@
 import axios from 'axios'
 import $store from '@/store/index'
 
-// const baseURL = "https://www.yangaoyuan.cn";
-// const baseURL = 'https://autumnfish.cn/'
 const baseURL = "http://localhost:3000";
-// const baseURL = "http://iwenwiki.com:3000/";
+
 
 let ajaxTimer = 0;
 export function request(config) {
