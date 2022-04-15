@@ -2,7 +2,7 @@
 
 #### Description
 
-基于 vue 编写的一个播放音乐网站(api 来源于网易云)
+基于 vue 编写的一个音乐播放网站(api 来源于网易云)
 
 #### Software Architecture
 
