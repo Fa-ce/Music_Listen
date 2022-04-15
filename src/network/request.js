@@ -2,8 +2,6 @@ import axios from 'axios'
 import $store from '@/store/index'
 
 const baseURL = "http://localhost:3000";
-
-
 let ajaxTimer = 0;
 export function request(config) {
     $store.commit('showLoading');
