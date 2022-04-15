@@ -48,8 +48,8 @@
                         trigger="click"
                         :theme="getTheme"
                     >
-                        <h2>Music Listen</h2>
-                        <!-- <i>Music Listen</i> -->
+                        <!-- <h2>Music Listen</h2> -->
+                        <i class="iconfont">Music Listen</i>
                         <div slot="content">悦听 Music Listen</div>
                     </b-tooltip>
                 </div>
@@ -171,10 +171,6 @@ export default {
         text-align: center;
         display: flex;
         cursor: pointer;
-        .headline {
-            margin: 5% 0 0 25%;
-            color: #50616d;
-        }
         &-left {
             flex: 2;
             display: flex;

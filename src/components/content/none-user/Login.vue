@@ -51,7 +51,7 @@
     </div>
 </template>
 <script>
-import { _phoneVerify, _login } from "network/user";
+// import { _phoneVerify, _login } from "network/user";
 export default {
     name: "Login",
     data() {

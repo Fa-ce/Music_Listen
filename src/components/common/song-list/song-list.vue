@@ -21,7 +21,7 @@
                     :class="[newsongs ? 'dance-music-table-tr-newsongs' : '']"
                     v-for="(item, index) in musicList"
                     :key="index"
-                    @click.native="handleDbclick(index)"
+                    @click.native="handleClick(index)"
                 >
                     <!-- 点击播放事件 -->
                     <b-table-td width="50px" v-if="lines[0]">
@@ -139,7 +139,7 @@ export default {
     },
     methods: {
         /**处理双击事件 */
-        handleDbclick(index) {
+        handleClick(index) {
             if (this.player) {
                 this.$bus.$emit("PlayMusicListItem", index);
                 return;
