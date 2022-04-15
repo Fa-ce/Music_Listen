@@ -2,6 +2,13 @@
   "name": "music_listen",
   "version": "0.1.0",
   "private": true,
+  "author": "3051810772@qq.com",
+  "description": "Vue音乐播放器",
+  "keywords": [
+    "https://www.yangaoyuan.cn/",
+    "https://autumnfish.cn/",
+    "http://iwenwiki.com:3000/"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
