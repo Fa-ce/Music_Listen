@@ -63,7 +63,7 @@ export default {
                 {
                     link: "/mv",
                     icon: "el-icon-magic-stick",
-                    content: "MV分类",
+                    content: "MV推送",
                 },
                 {
                     link: "/ranklist",
