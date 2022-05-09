@@ -3,7 +3,7 @@ import $store from '@/store/index'
 
 <<<<<<< HEAD
 // const baseURL = "http://localhost:3000";
-const baseURL = "https://www.yangaoyuan.cn/";
+
 // const baseURL = "https://autumnfish.cn/";
 // const baseURL = "http://iwenwiki.com:3000/";
 
