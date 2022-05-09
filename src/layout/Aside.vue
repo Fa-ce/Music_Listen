@@ -14,9 +14,9 @@
                 @mouseenter="handleRefresh"
                 v-if="playList.length"
             >
-                <p class="title">创建的歌单</p>
+                <!-- <p class="title">创建的歌单</p> -->
                 <scroll class="aside-scroll" ref="scroll">
-                    <ul class="my-music-list-main">
+                    <!-- <ul class="my-music-list-main">
                         <li
                             v-for="(item, index) in playList"
                             :key="index"
@@ -26,8 +26,8 @@
                             <div class="my-music-list-main-name">
                                 {{ item.name }}
                             </div>
-                        </li>
-                    </ul>
+                        </li> -->
+                    <!-- </ul> -->
                 </scroll>
             </div>
         </div>

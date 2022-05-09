@@ -119,7 +119,9 @@ export default {
                 title: "系统提示：",
                 desc: "欢迎使用悦听音乐~",
             });
-            this.$router.push("individuation");
+            this.$router.push({
+                path: "/individuation",
+            });
         },
     },
     watch: {

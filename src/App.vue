@@ -23,8 +23,6 @@ export default {
 </script>
 
 <style lang="less">
-body {
-}
 @import url("./styles/index.css");
 #app {
     width: 100%;

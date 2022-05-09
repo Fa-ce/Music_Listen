@@ -136,9 +136,7 @@ export default {
             });
             this.$emit("hidden");
         },
-        /**处理搜索建议单曲点击
-         * 点击单曲直接逼疯
-         */
+        /**处理搜索建议单曲点击直接播放 * 点击单曲直接逼疯 */
         async handleSongsClick(index) {
             /**获取歌曲详情 */
             await _getSongsDetail(this.songs[index].id).then((res) => {

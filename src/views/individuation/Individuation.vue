@@ -53,12 +53,12 @@ export default {
         };
     },
     created() {
-        if (
-            this.$store.state.cookie != null &&
-            this.$store.state.cookie != ""
-        ) {
-            this.limit = 11;
-        }
+        // if (
+        //     this.$store.state.cookie != null &&
+        //     this.$store.state.cookie != ""
+        // ) {
+        //     this.limit = 11;
+        // }
         /**轮播图数据 */
         _getBanner().then((res) => {
             this.banner = res.data.banners.slice(0, 6);

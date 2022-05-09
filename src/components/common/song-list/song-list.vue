@@ -138,7 +138,7 @@ export default {
         };
     },
     methods: {
-        /**处理双击事件 */
+        /**处理点击事件 */
         handleClick(index) {
             if (this.player) {
                 this.$bus.$emit("PlayMusicListItem", index);

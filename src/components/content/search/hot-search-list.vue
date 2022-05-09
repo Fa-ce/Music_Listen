@@ -121,9 +121,6 @@ export default {
     &-title {
         padding: 8px 0px;
         font-size: 15px;
-        .iconfont {
-            // margin-left: 5px;
-        }
         span {
             margin-left: 15px;
             font-size: 16px;

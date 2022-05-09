@@ -249,7 +249,7 @@ export default {
             this.setCurrentIndex(index);
         });
 
-        /**监听子组件播放列表双击切换歌曲 */
+        /**监听子组件播放列表点击切换歌曲 */
         this.$bus.$on("PlayMusicListItem", (index) => {
             this.setCurrentIndex(index);
         });
@@ -349,7 +349,7 @@ export default {
         /**监听音乐播放结束、并判断播放方式 */
         musicEnded() {
             // console.log("end:" + this.schemaIndex);
-            console.log("@", this.playList);
+            // console.log("@", this.playList);
             switch (this.schemaIndex) {
                 case 0:
                     this.currentIndex >= this.playList.length - 1

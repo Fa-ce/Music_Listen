@@ -32,7 +32,7 @@
                 <span>歌手：{{ baseInfo.artist.name }}</span>
             </div>
             <div class="right-item">
-                <span>时间：{{ getCreateDate }}</span>
+                <span>创建时间：{{ getCreateDate }}</span>
             </div>
         </div>
     </div>
