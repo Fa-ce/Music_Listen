@@ -2,7 +2,8 @@
 
 #### Description
 
-基于 vue 编写的一个音乐播放网站(api 来源于网易云)
+基于 vue 编写的一个音乐播放网站(api 来源于另一个仓库项目)
+后端地址：`git clone https://github.com/Fa-ce/NeteaseCloudMusicApi.git`
 
 #### Software Architecture
 
